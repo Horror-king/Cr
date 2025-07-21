@@ -19,7 +19,7 @@ app.post('/api/crip', async (req, res) => {
   const form = new FormData();
   form.append("prompt", prompt);
 
-  const apiKey = "3b805b36da5054768ba24d0fbd42ca96f375845d0cea06a27d901055cce2e6d33a1b2e7154ae64e28bb4c48aca47aab7";
+  const apiKey = "91c943b1448de009eba2ada63b39c50dc5ded3db61dbd14e2d4970a7edc9e73c04b0e11a0520e04f37ee07fd6dc140e9";
 
   try {
     const response = await fetch("https://clipdrop-api.co/text-to-image/v1", {
